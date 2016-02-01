@@ -1,5 +1,5 @@
-import HatenabookmarkButton from 'react-hatenabookmark-button';
+import HatenabookmarkButton from './HatenabookmarkButton';
 
-export default {
+export {
   HatenabookmarkButton,
 };

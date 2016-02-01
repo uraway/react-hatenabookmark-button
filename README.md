@@ -8,7 +8,7 @@ npm install --save react-hatenabookmark-button
 
 ## 使用例
 ```javascript
-import HatenabookmarkButton from 'react-hatenabookmark-button';
+import { HatenabookmarkButton } from 'react-hatenabookmark-button';
 
 class App extends React.Component {
   render() {

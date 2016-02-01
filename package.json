@@ -1,17 +1,27 @@
 {
   "name": "react-hatenabookmark-button",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Simple React components for HatenaBookmark Button.",
   "main": "lib/main.js",
   "scripts": {
     "test": "mocha test/test.js",
     "build": "babel src --out-dir lib"
   },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/uraway/react-hatenabookmark-button.git"
+  },
+  "bugs": {
+  "url": "https://github.com/uraway/react-hatenabookmark-button/issues"
+  },
   "keywords": [
     "react",
     "react-component",
     "react-hatena-button",
-    "hatenabookmark-button"
+    "hatenabookmark-button",
+    "hatena",
+    "hatenabookmark",
+    "social"
   ],
   "author": "Masato Urai (@uraway_)",
   "license": "MIT",
