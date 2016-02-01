@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class HatenabookmarkButton extends React.Component {
+  static propTypes = {
+    url: React.PropTypes.string,
+    layout: React.PropTypes.string,
+    title: React.PropTypes.string,
+  };
+
   constructor(props) {
     super(props);
     this.state = ({ initialized: false });
