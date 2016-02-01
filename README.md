@@ -1,39 +1,42 @@
 # react-hatenabookmark-button
 Simple React components for HatenaBookmark Button.
 
-## インストール
+## インストール Install
 ```
 npm install --save react-hatenabookmark-button
 ```
 
-## 使用例
+## 使用例 example
 ```javascript
 import { HatenabookmarkButton } from 'react-hatenabookmark-button';
 
 class App extends React.Component {
   render() {
     let url = "https://github.com";
-    let style = "simple-balloon";
+    let layout = "simple-balloon";
 
     return (
-      <HatenabookmarkButton url={url} style={style} />
+      <HatenabookmarkButton url={url} layout={layout} />
     );
   }
 }
 ```
 
-## プロパティ
+## プロパティ props
 
 ### url
-ブックマークボタンを設置するページのURLを設定してください｡
+シェアしたいページのURLを指定してください｡ デフォルトではボタンが設置されたページのURLを取得します｡
+The URL you want to share. The default value is the URL of the page where you put the button on.
 
 ### title
 ブックマーク時に表示されるタイトルを自由に設定することができます｡
+The title which display when the page is bookmarked.
 
-### style
-ボタンのスタイルを以下から選択してください｡
+### layout
+ボタンのレイアウトを以下から選択してください｡
+The button layout. Choose from the followings.
 
-###### デフォルト
+###### デフォルト default
 ![](http://i.imgur.com/AuKmG2o.png)
 
 ###### simple-balloon
