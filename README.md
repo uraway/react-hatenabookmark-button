@@ -25,15 +25,15 @@ class App extends React.Component {
 ## プロパティ props
 
 ### url
-シェアしたいページのURLを指定してください｡ デフォルトではボタンが設置されたページのURLを取得します｡
+シェアしたいページのURLを指定してください｡ デフォルトではボタンが設置されたページのURLを取得します｡<br>
 The URL you want to share. The default value is the URL of the page where you put the button on.
 
 ### title
-ブックマーク時に表示されるタイトルを自由に設定することができます｡
+ブックマーク時に表示されるタイトルを自由に設定することができます｡<br>
 The title which display when the page is bookmarked.
 
 ### layout
-ボタンのレイアウトを以下から選択してください｡
+ボタンのレイアウトを以下から選択してください｡<br>
 The button layout. Choose from the followings.
 
 ###### デフォルト default
@@ -46,4 +46,5 @@ The button layout. Choose from the followings.
 ![](http://i.imgur.com/2166oFC.png)
 
 
+---
 MIT licensed
