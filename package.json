@@ -1,6 +1,6 @@
 {
   "name": "react-hatenabookmark-button",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple React components for HatenaBookmark Button.",
   "main": "lib/main.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "hatenabookmark-button",
     "hatena",
     "hatenabookmark",
-    "social"
+    "social",
+    "react-hatena"
   ],
   "author": "Masato Urai (@uraway_)",
   "license": "MIT",
