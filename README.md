@@ -1,3 +1,5 @@
+This module will be duprecated soon. Use [react-social-sharebuttons](https://github.com/uraway/react-social-sharebuttons) instead.
+
 # react-hatenabookmark-button
 Simple React components for HatenaBookmark Button.
 
